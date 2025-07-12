@@ -9,16 +9,19 @@
         "build": "astro build",
         "preview": "astro preview",
         "astro": "astro",
-        "start": "astro preview"
+        "start": "astro preview",
+        "stackbit:dev": "stackbit dev",
+        "stackbit:build": "stackbit build",
+        "stackbit:deploy": "stackbit deploy"
     },
     "dependencies": {
-        "aos": "^2.3.4"
+        "aos": "^2.3.4",
+        "@stackbit/cms-git": "^1.0.35",
+        "@stackbit/types": "^2.1.14"
     },
     "devDependencies": {
         "@astrojs/check": "^0.9.4",
         "@astrojs/sitemap": "^3.3.0",
-        "@stackbit/cms-git": "^0.0.14",
-        "@stackbit/types": "^2.1.14",
         "@tailwindcss/vite": "^4.0.14",
         "@types/aos": "^3.0.7",
         "astro": "^5.5.3",
